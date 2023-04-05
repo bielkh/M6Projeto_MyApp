@@ -1,0 +1,54 @@
+    
+.sobre{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+    
+.sobre .sobre_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+    
+.sobre .sobre_main .image img{
+    width: 800px;
+    position: relative;
+    top: 60px;
+}
+    
+.sobre .sobre_main .sobre_text h1 span{
+    color: #fa3131;
+    margin-right: 15px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 45px;
+}
+    
+.sobre .sobre_main .sobre_text h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+    
+.sobre .sobre_main .sobre_text h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+    
+.sobre .sobre_main .sobre_text p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+}
+    
+.sobre .sobre_btn{
+    background: #fa3131;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 1118px;
+    bottom: 140px;
+}
+    

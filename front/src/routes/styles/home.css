@@ -1,0 +1,76 @@
+section{
+    width: 100%;
+    height: 100vh;
+}
+   
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 0px;
+}
+    
+section .main .main_text h1{
+    font-size: 60px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;   
+}
+    
+section .main .main_text h1 span{
+    margin-left: 15px;
+    color: #fa3131;
+    font-family: 'Rock Salt', cursive;
+    line-height: 22px;
+    font-size: 55px;
+}
+    
+section .main .main_image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+    top: 200px;
+}
+    
+section p{
+    width: 650px;
+    position: relative;
+    left: 123px;
+    bottom: 250px;
+    line-height: 22px;
+}
+    
+section .main_btn{
+    background: #fa3131;
+    position: relative;
+    left: 123px;
+    bottom: 150px;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+    transition: 0.3s;
+
+}
+    
+section .main_btn a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+        
+}
+    
+section .main_btn i{
+    color: #fff;
+    transition: 0.3s;
+}
+    
+section .main_btn:hover i{
+    transform: translateX(7px);
+}
+section .main_btn:hover {
+    background-color: #fac031;
+}
+    
+    
+    
